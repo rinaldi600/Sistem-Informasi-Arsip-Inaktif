@@ -1,0 +1,37 @@
+CRITICAL - 2022-03-10 14:15:06 --> Undefined index: tgl_akhir_surat
+#0 C:\xampp\htdocs\Arsip\app\Views\InaktifArsip\EditDataInaktifView.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\Arsip\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Arsip\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Arsip\system\Common.php(1089): CodeIgniter\View\View->render('InaktifArsip/Ed...', Array, true)
+#4 C:\xampp\htdocs\Arsip\app\Controllers\InaktifArsip.php(261): view('InaktifArsip/Ed...', Array)
+#5 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(825): App\Controllers\InaktifArsip->editData('INAKTIF-6229a2c...')
+#6 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InaktifArsip))
+#7 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-10 14:21:52 --> Undefined index: tanggal_berakhir_arsip
+#0 C:\xampp\htdocs\Arsip\app\Views\InaktifArsip\InaktifArsipView.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\Arsip\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Arsip\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Arsip\system\Common.php(1089): CodeIgniter\View\View->render('InaktifArsip/In...', Array, true)
+#4 C:\xampp\htdocs\Arsip\app\Controllers\InaktifArsip.php(170): view('InaktifArsip/In...', Array)
+#5 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(825): App\Controllers\InaktifArsip->index()
+#6 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InaktifArsip))
+#7 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-10 14:29:26 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\Arsip\app\Views\InaktifArsip\InaktifArsipView.php(60): date('Y-m-d', '2022-03-10')
+#2 C:\xampp\htdocs\Arsip\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Arsip\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Arsip\system\Common.php(1089): CodeIgniter\View\View->render('InaktifArsip/In...', Array, true)
+#5 C:\xampp\htdocs\Arsip\app\Controllers\InaktifArsip.php(170): view('InaktifArsip/In...', Array)
+#6 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(825): App\Controllers\InaktifArsip->index()
+#7 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InaktifArsip))
+#8 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}

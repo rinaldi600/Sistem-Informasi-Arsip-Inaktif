@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="55421661-7b1b-4967-a703-9509a8fdeac1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="25VDF3lktg6q8BDDF7bkiTkLENH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Views/InaktifArsip" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Arsip\app\Views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Arsip\app\Views\InaktifArsip" />
+      <recent name="C:\xampp\htdocs\Arsip\app\Views\SatuanArsip" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55421661-7b1b-4967-a703-9509a8fdeac1" name="Default Changelist" comment="" />
+      <created>1645603252442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645603252442</updated>
+      <workItem from="1645603256912" duration="1185000" />
+      <workItem from="1645625080700" duration="4492000" />
+      <workItem from="1645662473569" duration="11749000" />
+      <workItem from="1645686557783" duration="3525000" />
+      <workItem from="1645709353320" duration="6212000" />
+      <workItem from="1645748931329" duration="2236000" />
+      <workItem from="1645884395800" duration="4713000" />
+      <workItem from="1645933846121" duration="12130000" />
+      <workItem from="1645967733820" duration="10667000" />
+      <workItem from="1646358123390" duration="35000" />
+      <workItem from="1646613351999" duration="1188000" />
+      <workItem from="1646884513874" duration="7055000" />
+      <workItem from="1646958390248" duration="5541000" />
+      <workItem from="1647140631847" duration="595000" />
+      <workItem from="1647220358889" duration="2985000" />
+      <workItem from="1647242554170" duration="5014000" />
+      <workItem from="1647250030103" duration="599000" />
+      <workItem from="1647251406784" duration="2813000" />
+      <workItem from="1647265244556" duration="703000" />
+      <workItem from="1647303372840" duration="694000" />
+      <workItem from="1647304224463" duration="3023000" />
+      <workItem from="1647326501576" duration="3598000" />
+      <workItem from="1647704541941" duration="3857000" />
+      <workItem from="1647745499490" duration="4581000" />
+      <workItem from="1647751609964" duration="78000" />
+      <workItem from="1647784894091" duration="4846000" />
+      <workItem from="1647823444265" duration="10172000" />
+      <workItem from="1647848578181" duration="191000" />
+      <workItem from="1647954042426" duration="218000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="532" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1647848654864">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="532" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/62.0.1474.864@62.0.1474.864" timestamp="1647848654864" />
+    <state x="554" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/63.0.1473.864@63.0.1473.864" timestamp="1645712971615" />
+    <state x="634" y="352" width="328" height="174" key="NewPhpFileDialog" timestamp="1647833092392">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="634" y="352" key="NewPhpFileDialog/62.0.1474.864@62.0.1474.864" timestamp="1647833092392" />
+    <state x="635" y="352" width="328" height="174" key="NewPhpFileDialog/63.0.1473.864@63.0.1473.864" timestamp="1645977442037" />
+    <state x="456" y="197" key="run.anything.popup" timestamp="1647252315006">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="456" y="197" key="run.anything.popup/62.0.1474.864@62.0.1474.864" timestamp="1647252315006" />
+    <state x="457" y="197" key="run.anything.popup/63.0.1473.864@63.0.1473.864" timestamp="1645675619401" />
+  </component>
+</project>

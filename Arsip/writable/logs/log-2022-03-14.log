@@ -1,0 +1,96 @@
+ERROR - 2022-03-14 14:55:07 --> Unknown column 'idRetensi' in 'where clause'
+CRITICAL - 2022-03-14 14:55:07 --> Unknown column 'idRetensi' in 'where clause'
+#0 C:\xampp\htdocs\Arsip\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Arsip\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Arsip\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Arsip\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Arsip\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Arsip\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Arsip\app\Controllers\RetensiArsip.php(135): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(825): App\Controllers\RetensiArsip->dataEditRetensi()
+#8 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RetensiArsip))
+#9 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-03-14 15:14:19 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\Arsip\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Arsip\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-14 15:20:24 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\Arsip\app\Controllers\KesimpulanArsip.php(41): date('Y', '2032-08-10')
+#2 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(825): App\Controllers\KesimpulanArsip->index()
+#3 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KesimpulanArsip))
+#4 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-14 15:21:49 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\Arsip\app\Controllers\KesimpulanArsip.php(41): date('Y', '2032-08-10')
+#2 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(825): App\Controllers\KesimpulanArsip->index()
+#3 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KesimpulanArsip))
+#4 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-14 15:22:10 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\Arsip\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Arsip\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-14 15:22:22 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\Arsip\app\Controllers\KesimpulanArsip.php(41): date('Y', '2032-08-10')
+#2 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(825): App\Controllers\KesimpulanArsip->index()
+#3 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KesimpulanArsip))
+#4 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-14 15:48:16 --> Undefined variable: data
+#0 C:\xampp\htdocs\Arsip\app\Controllers\KesimpulanArsip.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(825): App\Controllers\KesimpulanArsip->index()
+#2 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KesimpulanArsip))
+#3 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 16:33:05 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\Arsip\app\Controllers\KesimpulanArsip.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(825): App\Controllers\KesimpulanArsip->index()
+#2 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KesimpulanArsip))
+#3 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 16:37:05 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\Arsip\app\Controllers\KesimpulanArsip.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(825): App\Controllers\KesimpulanArsip->index()
+#2 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KesimpulanArsip))
+#3 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 16:50:25 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\Arsip\app\Controllers\KesimpulanArsip.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(825): App\Controllers\KesimpulanArsip->index()
+#2 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KesimpulanArsip))
+#3 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

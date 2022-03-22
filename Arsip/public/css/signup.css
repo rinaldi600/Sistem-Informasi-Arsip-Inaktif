@@ -1,0 +1,8 @@
+h1, input, label, button, p, div {
+    font-family: 'OpenSans-Regular';
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('/fonts/OpenSans-Regular.ttf');
+}

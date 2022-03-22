@@ -1,0 +1,135 @@
+ERROR - 2022-03-21 08:24:00 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-21 08:24:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\Arsip\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Arsip\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Arsip\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Arsip\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\Arsip\app\Controllers\Login.php(64): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(825): App\Controllers\Login->dataLogin()
+#6 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-21 08:24:17 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-21 08:24:17 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\Arsip\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Arsip\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Arsip\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Arsip\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\Arsip\app\Controllers\Login.php(64): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(825): App\Controllers\Login->dataLogin()
+#6 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-21 08:24:42 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-03-21 08:24:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\Arsip\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Arsip\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Arsip\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Arsip\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\Arsip\app\Controllers\Login.php(64): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(825): App\Controllers\Login->dataLogin()
+#6 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-21 09:46:59 --> Undefined variable: dataUser
+#0 C:\xampp\htdocs\Arsip\app\Views\DashboardLayout\DashboardView.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\Arsip\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Arsip\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Arsip\system\View\View.php(226): CodeIgniter\View\View->render('DashboardLayout...', Array, true)
+#4 C:\xampp\htdocs\Arsip\system\Common.php(1089): CodeIgniter\View\View->render('Setting/Setting...', Array, true)
+#5 C:\xampp\htdocs\Arsip\app\Controllers\Setting.php(10): view('Setting/Setting...')
+#6 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(825): App\Controllers\Setting->index()
+#7 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#8 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-03-21 09:51:11 --> Undefined variable: dataUser
+#0 C:\xampp\htdocs\Arsip\app\Views\DashboardLayout\DashboardView.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\Arsip\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Arsip\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Arsip\system\View\View.php(226): CodeIgniter\View\View->render('DashboardLayout...', Array, true)
+#4 C:\xampp\htdocs\Arsip\system\Common.php(1089): CodeIgniter\View\View->render('Setting/Setting...', Array, true)
+#5 C:\xampp\htdocs\Arsip\app\Controllers\Setting.php(25): view('Setting/Setting...', Array)
+#6 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(825): App\Controllers\Setting->index()
+#7 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#8 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-03-21 09:51:21 --> Undefined variable: dataUser
+#0 C:\xampp\htdocs\Arsip\app\Views\DashboardLayout\DashboardView.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\Arsip\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Arsip\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Arsip\system\View\View.php(226): CodeIgniter\View\View->render('DashboardLayout...', Array, true)
+#4 C:\xampp\htdocs\Arsip\system\Common.php(1089): CodeIgniter\View\View->render('Setting/Setting...', Array, true)
+#5 C:\xampp\htdocs\Arsip\app\Controllers\Setting.php(25): view('Setting/Setting...', Array)
+#6 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(825): App\Controllers\Setting->index()
+#7 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#8 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-03-21 10:37:21 --> Duplicate entry 'DNSBAPPEDA22' for key 'username_unique'
+CRITICAL - 2022-03-21 10:37:21 --> Duplicate entry 'DNSBAPPEDA22' for key 'username_unique'
+#0 C:\xampp\htdocs\Arsip\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbl_use...', 0)
+#1 C:\xampp\htdocs\Arsip\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_use...')
+#2 C:\xampp\htdocs\Arsip\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_use...')
+#3 C:\xampp\htdocs\Arsip\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_use...', Array, false)
+#4 C:\xampp\htdocs\Arsip\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Arsip\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\Arsip\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\Arsip\app\Controllers\Setting.php(108): CodeIgniter\Model->update(NULL, Array)
+#8 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(825): App\Controllers\Setting->dataUser()
+#9 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#10 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-03-21 10:37:57 --> Duplicate entry 'DNSBAPPEDA21' for key 'username_unique'
+CRITICAL - 2022-03-21 10:37:57 --> Duplicate entry 'DNSBAPPEDA21' for key 'username_unique'
+#0 C:\xampp\htdocs\Arsip\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbl_use...', 0)
+#1 C:\xampp\htdocs\Arsip\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_use...')
+#2 C:\xampp\htdocs\Arsip\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_use...')
+#3 C:\xampp\htdocs\Arsip\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_use...', Array, false)
+#4 C:\xampp\htdocs\Arsip\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Arsip\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\Arsip\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\Arsip\app\Controllers\Setting.php(108): CodeIgniter\Model->update(NULL, Array)
+#8 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(825): App\Controllers\Setting->dataUser()
+#9 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#10 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-03-21 10:38:40 --> Duplicate entry 'DNSBAPPEDA22' for key 'username_unique'
+CRITICAL - 2022-03-21 10:38:40 --> Duplicate entry 'DNSBAPPEDA22' for key 'username_unique'
+#0 C:\xampp\htdocs\Arsip\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbl_use...', 0)
+#1 C:\xampp\htdocs\Arsip\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_use...')
+#2 C:\xampp\htdocs\Arsip\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_use...')
+#3 C:\xampp\htdocs\Arsip\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_use...', Array, false)
+#4 C:\xampp\htdocs\Arsip\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Arsip\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\xampp\htdocs\Arsip\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\xampp\htdocs\Arsip\app\Controllers\Setting.php(108): CodeIgniter\Model->update(NULL, Array)
+#8 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(825): App\Controllers\Setting->dataUser()
+#9 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+#10 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}

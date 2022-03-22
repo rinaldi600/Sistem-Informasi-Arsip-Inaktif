@@ -1,0 +1,35 @@
+CRITICAL - 2022-03-20 10:22:58 --> Array to string conversion
+#0 C:\xampp\htdocs\Arsip\app\Views\KategoriArsip\KategoriArsipView.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\Arsip\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Arsip\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Arsip\system\Common.php(1089): CodeIgniter\View\View->render('KategoriArsip/K...', Array, true)
+#4 C:\xampp\htdocs\Arsip\app\Controllers\KategoriArsip.php(51): view('KategoriArsip/K...', Array)
+#5 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(825): App\Controllers\KategoriArsip->index()
+#6 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriArsip))
+#7 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-20 11:22:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Arsip\app\Views\DashboardLayout\DashboardView.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\Arsip\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Arsip\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Arsip\system\View\View.php(226): CodeIgniter\View\View->render('DashboardLayout...', Array, true)
+#4 C:\xampp\htdocs\Arsip\system\Common.php(1089): CodeIgniter\View\View->render('KesimpulanArsip...', Array, true)
+#5 C:\xampp\htdocs\Arsip\app\Controllers\KesimpulanArsip.php(54): view('KesimpulanArsip...', Array)
+#6 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(825): App\Controllers\KesimpulanArsip->index()
+#7 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KesimpulanArsip))
+#8 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-03-20 11:37:55 --> Invalid file: RegistrationUserArsipBappeda/RegistrationView.php
+#0 C:\xampp\htdocs\Arsip\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('RegistrationUse...')
+#1 C:\xampp\htdocs\Arsip\system\Common.php(1089): CodeIgniter\View\View->render('RegistrationUse...', Array, true)
+#2 C:\xampp\htdocs\Arsip\app\Controllers\RegistrationUserArsipBappeda.php(71): view('RegistrationUse...')
+#3 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(825): App\Controllers\RegistrationUserArsipBappeda->index()
+#4 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegistrationUserArsipBappeda))
+#5 C:\xampp\htdocs\Arsip\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Arsip\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Arsip\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
